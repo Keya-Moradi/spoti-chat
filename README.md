@@ -1,7 +1,7 @@
 # `Spoti-chat`
 Share your love of music!
 
-![Spoti-Chat](./images/logo.png)
+![Spoti-Chat](./public/images/logo.png)
 
 ## What is it?
 Travel Map uses the Google Maps API to plot bookmark pins so that you can easily see your saved destinations.
@@ -27,19 +27,15 @@ Spoti-Chat uses Spotify API, and allows you to do the following:
 
 #### Login
 
-![Login Page](.png)
-
-Users are automatically redirected here if they are not logged in.
-
-#### Spotify Login
-
-![Login Page](.png)
+![Login Page](./public/images/loginScreen.png)
 
 Users are automatically redirected here if they are not logged in.
 
 #### Signup
 
-![Signup Page](.png)
+![Signup Page](./public/images/signupScreen.png)
+
+Users are automatically redirected here if they are not logged in to Spotify.
 
 Users can create an account here if they do not have one or wish create another one. Once the user submits the signup form, the following validations occur:
 
@@ -47,9 +43,15 @@ Users can create an account here if they do not have one or wish create another 
 - Inputted password is verified so that it is valid. It also verifies that the same password is inputted twice.
 - Password is encrypted before it's stored in the database.
 
+#### Spotify Login
+
+![Spotify Page](./public/images/spotifyLoginScreen.png)
+
+Users are automatically redirected here if they are not logged in to Spotify.
+
 #### Homepage
 
-![Home Page](.png)
+![Home Page](./public/images/homePageScreen.png)
 
 This page displays the following:
 1. A vertical sidebar navigation on the left
@@ -60,7 +62,7 @@ This page displays the following:
 
 #### Profile
 
-![Profile Page](.png)
+![Profile Page](./public/images/.png)
 
 Users will be able to view their profile page, which contains their photo, and relevant user information based on the schema outline in Mongo DB for signing up 
 
@@ -81,12 +83,6 @@ Users can search for any song they want using the `search` feature in the Spotif
 ![Recommendation Page](.png)
 
 Users will be able to view songs recommended by the Spotofy API from their user profile using the `recommendation` feature of the Spotify API. 
-
-#### Logout
-
-![Logout Page](.png)
-
-Users will be able to logout using the side bar in the app at all times. 
 
 #### Favorites
 
